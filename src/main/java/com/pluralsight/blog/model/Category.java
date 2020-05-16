@@ -25,4 +25,8 @@ public class Category {
         posts = new ArrayList<>();
     }
 
+    public List<Post> getPosts() {
+        return posts;
+    }
+
 }
